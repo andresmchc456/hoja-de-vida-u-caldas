@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andres Felipe Cortes Melendez - Hoja de Vida</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Estilos -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="light-mode">
+    <!-- Contenedor Principal del Currículum -->
+    <div class="cv-container">
+        
+        <!-- Botones de Control (Tema, Imprimir) -->
+        <div class="cv-controls">
+            <button id="theme-toggle" class="control-btn" title="Cambiar Tema (Claro/Oscuro)" aria-label="Cambiar Tema">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="control-btn" onclick="window.print()" title="Guardar como PDF / Imprimir" aria-label="Imprimir Currículum">
+                <i class="fas fa-print"></i>
+            </button>
+        </div>
+
+        <div class="cv-layout">
+            <!-- Barra Lateral: Foto, Nombre y Datos de Contacto -->
+            <aside class="cv-sidebar">
+                <div id="perfil" class="sidebar-block">
+                    <!-- Perfil se cargará aquí -->
+                </div>
+                <div id="contacto" class="sidebar-block">
+                    <!-- Contacto se cargará aquí -->
+                </div>
+            </aside>
+
+            <!-- Contenido Principal: Experiencia, Educación, Habilidades, Gustos, Referencias -->
+            <main class="cv-main">
+                <div id="experiencia">
+                    <!-- Experiencia se cargará aquí -->
+                </div>
+                <div id="trayectoria">
+                    <!-- Trayectoria se cargará aquí -->
+                </div>
+                <div id="educacion">
+                    <!-- Educación se cargará aquí -->
+                </div>
+                <div id="habilidades">
+                    <!-- Habilidades se cargará aquí -->
+                </div>
+                <div id="gustos">
+                    <!-- Gustos se cargará aquí -->
+                </div>
+                <div id="referencias">
+                    <!-- Referencias se cargará aquí -->
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- JS Loader -->
+    <script src="js/loader.js"></script>
+</body>
+
+</html>
